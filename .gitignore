@@ -6,3 +6,4 @@ vendor/
 json/
 index.php
 .idea/
+tests/
