@@ -40,7 +40,7 @@ class DB
             return $instance;
         }
 
-        return $instance = new self('mysql', 'your_orange', 'your_orange', 'Archer!01', 'mysql');
+        return $instance = new self('localhost', getenv('YOUR_ORANGE_DATABASE'), getenv('YOUR_ORANGE_USER'), getenv('YOUR_ORANGE_PASSWORD'), getenv('YOUR_ORANGE_DATABASE_ENGINE'));
     }
 
     /**
