@@ -1,0 +1,21 @@
+{
+  "name": "YourZero/YourOrange",
+  "description": "A Database Caching Library for Riot Games' League Of Legends API",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Josh Capener",
+      "email": "josh@yourleague.co.uk"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "7.5.1",
+    "vlucas/phpdotenv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourOrange\\": "app/"
+    }
+  }
+}
