@@ -1,0 +1,8 @@
+/YourDocker
+composer.lock
+composer.phar
+.env
+vendor/
+json/
+index.php
+.idea/
